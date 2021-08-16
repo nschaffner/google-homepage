@@ -38,6 +38,13 @@ img {
     text-decoration: underline;
 }
 
+.nav-link-special {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
 .button-apps {
     width: 32px;
     height: 32px;
@@ -46,6 +53,15 @@ img {
     background-position: 1px 1px;
     opacity: 0.6;
     border-radius: 50%;
+}
+
+.sign-in {
+    width: 75px;
+    height: 32px;
+    background-color: #4285f4;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
 }
 
 .main {
